@@ -1,5 +1,5 @@
 //para escolher qual API usar só alterar de "acima" para "abaixo"
-const api_url = 'json/abaixo-10-reais.json';
+const api_url = 'json/acima-10-reais.json';
 
 //Ativando e desativando o Modal
 function modal(){
