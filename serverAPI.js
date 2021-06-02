@@ -1,7 +1,12 @@
 //para escolher qual API usar só alterar de "acima" para "abaixo"
 const api_url = 'json/abaixo-10-reais.json';
 
-
+//Ativando e desativando o Modal
+function modal(){
+    document
+    .querySelector('.modal-overlay')
+    .classList.toggle('active');
+}
 
 //conectando com o json
 async function getIss(){

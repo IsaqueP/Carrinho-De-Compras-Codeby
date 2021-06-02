@@ -41,7 +41,7 @@
             </div>
 
             <div class="finishedPurchase">
-                <button>Finalizar compra</button>
+                <button onclick="modal()">Finalizar compra</button>
             </div>
 
         </footer>
@@ -49,6 +49,13 @@
     </div>
 
     
+    <!--Modal-->
+    <div class="modal-overlay">
+        <div class="modal ">    
+            <p class="textModal">Parabéns!! sua compra foi realizada</p>           
+            <button id="btnOk" onclick="modal()">Ok</button>
+        </div>
+    </div>
 
     <script src="serverAPI.js"></script>
 </body>
