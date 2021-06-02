@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/iconCarrinho.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Carrinho de Compra - CODEBY</title>
+</head>
+
+<body>
+
+    <!-- Container onde ficará o carrinho de compra-->
+    <div id="container">
+
+        <header id="header">
+            <h1 id="title">Meu carrinho</h1>
+        </header>
+
+        <main id="main">
+            <!--O conteúdo será colocado pelo javascript-->
+        </main>
+
+        <footer id="footer">
+
+            <div class="total">
+                <h3 class="totalPurchase">Total</h3>
+                <h3 id="totalPrice"></h3>
+            </div>
+
+            <div class="frete overlay">
+                <p class="alertFrete">Parabéns, sua compra tem frete grátis !</p>
+            </div>
+
+            <div class="finishedPurchase">
+                <button>Finalizar compra</button>
+            </div>
+
+        </footer>
+
+    </div>
+
+    
+
+    <script src="serverAPI.js"></script>
+</body>
+</html>
