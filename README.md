@@ -9,9 +9,9 @@ Projeto do processo seletivo da empresa CODEBY
 É um exemplo de carrinho de compras
 
 ## Layout web
-![Web 1](https://github.com/IsaqueP/Dev.Finance/blob/main/assets/GitHub/Screenshot_Desktop_Clean.png)
+![Web 1](https://github.com/IsaqueP/Carrinho-De-Compras-Codeby/blob/main/img/Screenshot-CarrinhoDeCompras-acima-10reais.png)
 
-![Web 2](https://github.com/IsaqueP/Dev.Finance/blob/main/assets/GitHub/Screenshot_Desktop_Modal.png)
+![Web 2](https://github.com/IsaqueP/Carrinho-De-Compras-Codeby/blob/main/img/Screenshot-carrinhoDeCompras-abaixo-10reais.png)
 
 
 # Tecnologias utilizadas
